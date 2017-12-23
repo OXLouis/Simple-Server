@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频的超链接</title>
+    <link rel="stylesheet" type="text/css" href="css/homework.css">
+</head>
+<body>
+    <div class="header1">
+        <img src="css/images/fly.png">
+        <ul class="nav1">
+            <li><a href="index.html">主页</a></li>
+            <li><a href="#简介">简介</a></li>
+            <li><a href="#">其他</a></li>
+        </ul>
+    </div>
+    <div class="main-content1">
+        <h4>视频的超链接 LOL S4 season promotional film</h4>
+        <hr>
+        <a name="简介"></a>
+        <embed src="css/vedio/lol.mp4" height="400" width="500"></embed>
+        <br>
+        <a href="css/vedio/lol.mp4">LOL S4 season promotional film</a>
+        <br>
+        <img dynsrc="css/vedio/lol.avi" height="400" width="500">
+        <br>
+        <img dynsrc="css/vedio/lol.avi" height="400" width="500" start=mouseover>
+
+    </div>
+    <div class="footer">
+        <p>&copy OX_Louis</p>
+    </div>
+    <canvas id="myCanvas"></canvas>
+
+<script type="text/javascript">
+
+var canvas=document.getElementById('myCanvas');
+var ctx=canvas.getContext('2d');
+ctx.fillStyle='#FF0000';
+ctx.fillRect(0,0,80,100);
+
+</script>
+</body>
+</html>
