@@ -1,5 +1,4 @@
 import socket,threading
-import re
 from request import server
 
 # settings
